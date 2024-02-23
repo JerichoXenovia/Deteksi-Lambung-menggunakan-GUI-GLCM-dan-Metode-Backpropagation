@@ -1,0 +1,5 @@
+im = imread('CItra-gerd-01.jpeg')
+imshow(im)
+pause(1)
+imcrp=imcrop(im,[20 30 40 80])
+imshow(imcrp)
